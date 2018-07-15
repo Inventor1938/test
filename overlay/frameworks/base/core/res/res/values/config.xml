@@ -415,4 +415,11 @@
     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
+
+    <!-- Default clock position
+         * 0: show the clock in the right position (LTR)
+         * 1: show the clock in the center
+         * 2: show the clock in the left position (LTR)
+    -->
+    <integer name="def_clock_position">2</integer>
 </resources>
