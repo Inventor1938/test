@@ -422,4 +422,7 @@
          * 2: show the clock in the left position (LTR)
     -->
     <integer name="def_clock_position">2</integer>
+
+    <!-- Whether device has a notch -->
+    <bool name="config_haveNotch">true</bool>
 </resources>
