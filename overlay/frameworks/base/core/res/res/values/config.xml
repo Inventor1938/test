@@ -431,4 +431,7 @@
 
     <!-- Default color for notification LED is blue. --> 
     <color name="config_defaultNotificationColor">#ff0000ff</color> 
+
+    <!-- Whether device has dash charging support -->
+    <bool name="config_hasDashCharger">true</bool>
 </resources>
