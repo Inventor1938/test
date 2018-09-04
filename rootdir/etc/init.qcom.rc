@@ -10,6 +10,8 @@ on boot
     # Fingerprint
     chown system system /sys/devices/platform/soc/soc:goodix_fp/proximity_state
 
+    setprop vendor.camera.aux.packagelist com.oneplus.camera
+
 on charger
     write /sys/class/backlight/panel0-backlight/brightness 150
 
