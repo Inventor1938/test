@@ -10,7 +10,10 @@ on boot
     # Fingerprint
     chown system system /sys/devices/platform/soc/soc:goodix_fp/proximity_state
 
-    setprop vendor.camera.aux.packagelist com.oneplus.camera
+    mkdir /data/vendor/omni 0770 cameraserver audio
+    write /data/vendor/omni/client_package_name 0
+    chown cameraserver audio /data/vendor/omni/client_package_name
+    chmod 0644 /data/vendor/omni/client_package_name
 
     setprop vendor.camera.aux.packagelist "com.oneplus.camera"
     setprop camera.hal1.packagelist "none"
