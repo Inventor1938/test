@@ -457,12 +457,15 @@
          that can be set by the user. -->
     <integer name="config_screenBrightnessDoze">6</integer>
 
-   <!-- If true, the display will be shifted around in ambient mode. --> 
+    <!-- If true, the display will be shifted around in ambient mode. --> 
     <bool name="config_enableBurnInProtection">true</bool>
 
-   <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. --> 
-   <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
-
-   <!-- Whether device ignores the RSSNR signal implementation -->
+    <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
+
+    <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. --> 
+    <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
+
+    <!-- Specify custom blanking delay of the display -->
+    <integer name="config_screen_off_delay">0</integer>
 </resources>
