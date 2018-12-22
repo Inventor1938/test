@@ -87,3 +87,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Touch
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qti.inputopts.enable=true
+
+# Memory optimizations
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.sys.fw.bservice_enable=true
